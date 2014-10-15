@@ -1,7 +1,0 @@
-Instructions to train hazmats
-
-1. git checkout vision_hazmatTraining
-2. git fetch
-3. git merge origin/vision_hazmatTraining
-4. cd /pandora/pandora_develop/pandora_robot
-5. roslaunch vision hazmatTrainNode.launch
