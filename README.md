@@ -13,14 +13,12 @@ Clone the `https://github.com/pandora-auth-ros-pkg/pandora_docs.wiki.git` repo a
 
 ## API documentation and Jenkins builds
 
-|       Metapackage     |                             API Documentation                             |Jenkins build|
-| --------------------- | :------------------------------------------------------------------------:|:-----------:|
-| pandora_common        | -                                                                         | [Job][1]    |
-| pandora_data_fusion   | [Code API](http://docs.pandora.ee.auth.gr/api/pandora_data_fusion/html/)  | [Job][2]    |
-| pandora_fsm           | [Code API](http://docs.pandora.ee.auth.gr/api/pandora_fsm/html/)          | -           |
-| pandora_visualization | -                                                                         | [Job][3]    |
-| pandora_vision        | [Code API](http://docs.pandora.ee.auth.gr/api/pandora_vision/html/)       | -           |
+|       Metapackage     |                             API Documentation                             | Jenkins build | Build status* |
+| --------------------- | :------------------------------------------------------------------------:|:-----------:|:-------:|
+| pandora_common        | -                                                                         | [Job](http://jenkins.pandora.ee.auth.gr/job/test-pandora_common/) | [![Build Status](http://jenkins.pandora.ee.auth.gr/buildStatus/icon?job=test-pandora_common/hydro-devel)](http://jenkins.pandora.ee.auth.gr/job/test-pandora_common/branch/hydro-devel/) |
+| pandora_data_fusion   | [Code API](http://docs.pandora.ee.auth.gr/api/pandora_data_fusion/html/)  | [Job](http://jenkins.pandora.ee.auth.gr/job/test-pandora_data_fusion/) | [![Build Status](http://jenkins.pandora.ee.auth.gr/buildStatus/icon?job=test-pandora_data_fusion/hydro-devel)](http://jenkins.pandora.ee.auth.gr/job/test-pandora_data_fusion/branch/hydro-devel/) |
+| pandora_fsm           | [Code API](http://docs.pandora.ee.auth.gr/api/pandora_fsm/html/)          | -           | - |
+| pandora_vision        | [Code API](http://docs.pandora.ee.auth.gr/api/pandora_vision/html/)       | [Job](http://jenkins.pandora.ee.auth.gr/job/test-pandora_vision/)        | [![Build Status](http://jenkins.pandora.ee.auth.gr/buildStatus/icon?job=test-pandora_vision/hydro-devel)](http://jenkins.pandora.ee.auth.gr/job/test-pandora_vision/branch/hydro-devel/) |
+| pandora_visualization | -                                                                         | [Job](http://jenkins.pandora.ee.auth.gr/job/test-pandora_visualization/)    | [![Build Status](http://jenkins.pandora.ee.auth.gr/buildStatus/icon?job=test-pandora_visualization/hydro-devel)](http://jenkins.pandora.ee.auth.gr/job/test-pandora_visualization/branch/hydro-devel/) |
 
-[1]: http://jenkins.pandora.ee.auth.gr/job/test-pandora_common/
-[2]: http://jenkins.pandora.ee.auth.gr/job/test-pandora_data_fusion/
-[3]: http://jenkins.pandora.ee.auth.gr/job/test-pandora_visualization/
+*hydro-devel
