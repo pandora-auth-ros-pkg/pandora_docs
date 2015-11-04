@@ -1,7 +1,7 @@
 # Headers
 
 
-1. Every header file should have the appropriate header guards
+Every header file should have the appropriate header guards
 
 
 Suppose the following directory tree:
@@ -14,6 +14,8 @@ Suppose the following directory tree:
 |   |   |   |   |-- abstract_classifier.h
 ```
 
+Inside `abstract_classifier.h` we add the following:
+
 ```cpp
 #ifndef PANDORA_VISION_VICTIM_CLASSIFIERS_ABSTRACT_CLASSIFIER_H
 #define PANDORA_VISION_VICTIM_CLASSIFIERS_ABSTRACT_CLASSIFIER_H
@@ -24,3 +26,7 @@ Suppose the following directory tree:
 
 #endif  // PANDORA_VISION_VICTIM_CLASSIFIERS_ABSTRACT_CLASSIFIER_H
 ```
+
+The name of the header guard derives from the name of the package and the
+following subdirectories and the file name written in [SNAKE_CASE](https://en.wikipedia.org/wiki/Snake_case).
+
