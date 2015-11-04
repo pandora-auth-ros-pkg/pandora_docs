@@ -18,6 +18,7 @@ Suppose we have the following structure in a repo
 1. Every source file should be written under a namespace, **tests included**.
 2. Namespaces should **not** be indented.
 3. Code should start in the **same** indendation level as the namespaces.
+4. Namespaces should be in lowercase separated by underscores.
 
 ---
 
