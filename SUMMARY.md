@@ -1,13 +1,17 @@
+# Summary
 
-
-* [C++]
-    * [classes](cpp/classes.md)
-    * [functions](cpp/functions.md)
-    * [variables](cpp/variables.md)
-    * [naming conventions](cpp/naming.md)
-* [Python]
-    * [pep8](python/pep8.md)
-* [ROS]
-    * [packages](ros/packages.md)
-    * [launchers](ros/launchers.md)
-    * [tests](ros/tests.md)
+* [C++](cpp/intro.md)
+    * [Scoping](cpp/scoping.md)
+    * [Classes](cpp/classes.md)
+    * [Functions](cpp/functions.md)
+    * [Variables](cpp/variables.md)
+    * [Naming](cpp/naming.md)
+    * [Comments](cpp/comments.md)
+    * [Formatting](cpp/formatting.md)
+* [Python](python/intro.md)
+    * [PEP8](python/pep8.md)
+* [ROS](ros/intro.md)
+    * [Packages](ros/packages.md)
+    * [Launchers](ros/launchers.md)
+    * [Tests](ros/tests.md)
+* [Tools](tools/intro.md)
